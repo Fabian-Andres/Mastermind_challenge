@@ -5,28 +5,364 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mastermind</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-  <h1>Mastermind Challenge</h1>
+<body class="mt-5">
+  <h1 class="text-center">Mastermind Challenge</h1>
 
-  <div>
-    <ul id='HM'>
-      <li>
-        My primer color
-      </li>
-      <li>
-        My primer color
-      </li>
-      <li>
-        My primer color
-      </li>
-    </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 ml-auto">
+        <div class="head">
+          <ul>
+            <li class="card">
+              HM
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center TM8">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="PM8">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="row justify-content-center TM7">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul class="PM7">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center TM6">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul class="PM6">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center TM5">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul class="PM5">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center TM4">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul class="PM4">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center TM3">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul class="PM3">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center TM2">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul class="PM2">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center TM1">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <ul class="PM1">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center TM0">
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li class="card">
+            TM
+          </li>
+          <li class="card">
+            TM
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="PM0">
+          <li class="card">
+            PM
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <ul class="CM">
+          <li class="card">
+            CM
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
-
-
-  <script src="index.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
