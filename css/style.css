@@ -1,0 +1,19 @@
+.TM li {
+  border: pink solid 1px;
+  text-align: center;
+  background-color: #e9bdc480;
+}
+
+.TM li:nth-child(odd) {
+  float: left;
+  width: 50%;
+}
+
+.PM li {
+  border: tomato solid 1px;
+  background-color: #ff634775;
+}
+
+.CM li {
+  border: green solid 1px
+}
